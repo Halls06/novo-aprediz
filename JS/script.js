@@ -24,7 +24,7 @@ function carregar(){
         txt.innerText = 'Boa Tarde'
      }
    
-    else{
+    else {
         igm.src = 'noite.png'
         document.body.style.background = '#224671'
         txt.innerHTML = 'Boa Noite'
