@@ -11,10 +11,10 @@ function carregar(){
         document.body.style.background = '#aa916e'
         txt.innerText = 'Bom Dia'
         
-     } else if (hora === 16 && min >= 20 && min <= 45) {
-        igm.src = 'weed.png';
-        document.body.style.background = '#016231';
-        txt.innerText = 'Hora Especial';
+     } else if (hora === 16 && min >= 20 && min <= 50) {
+        igm.src = 'weed.png'
+        document.body.style.background = '#016231'
+        txt.innerText = 'Hora Especial'
     }
     
     
