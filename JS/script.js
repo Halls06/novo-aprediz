@@ -11,17 +11,20 @@ function carregar(){
         document.body.style.background = '#aa916e'
         txt.innerText = 'Bom Dia'
         
-    }else if (hora >= 12 && hora <= 18){
-        igm.src = 'tarde.png'
-        document.body.style.background = '#f1b07a'
-        txt.innerText = 'Boa Tarde'
-
-    } else if (hora === 16 && min >= 20 && min <= 30) {
+    }  else if (hora === 16 && min >= 20 && min <= 30) {
+       
         igm.src = 'weed.png';
         document.body.style.background = '#016231';
         txt.innerText = 'Hora Especial';
     }
+     
     
+    else if (hora >= 12 && hora <= 18){
+        igm.src = 'tarde.png'
+        document.body.style.background = '#f1b07a'
+        txt.innerText = 'Boa Tarde'
+    }
+
     else{
         igm.src = 'noite.png'
         document.body.style.background = '#224671'
