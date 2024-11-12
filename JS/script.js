@@ -18,7 +18,7 @@ function carregar(){
     }
     
     
-     else if (hora >= 12 && hora <= 18 && min < 1){
+     else if (hora >= 12 && hora === 18 && min < 1){
         igm.src = 'tarde.png'
         document.body.style.background = '#f1b07a'
         txt.innerText = 'Boa Tarde'
